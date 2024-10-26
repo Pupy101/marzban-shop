@@ -9,3 +9,9 @@ services:
         volumes:
             - "./goods.json:/app/goods.json"
             - "./locales:/app/locales"
+    db:
+        image: mysql:latest
+        env_file: .env
+        environment:
+            MYSQL_USER: ${DB_USER}
+            MYSQL_PASSWORD: ${DB_PASS}
