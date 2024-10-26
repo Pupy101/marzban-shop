@@ -17,6 +17,8 @@ services:
             MYSQL_PASSWORD: ${DB_PASS}
             MYSQL_ALLOW_EMPTY_PASSWORD: yes
             MYSQL_DATABASE: ${DB_NAME}
+        ports:
+        - '3306:8090'
 
 networks:
     my_network:
