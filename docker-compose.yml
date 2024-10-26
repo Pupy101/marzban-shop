@@ -22,7 +22,7 @@ services:
             DB_NAME: ${DB_NAME}
             DB_USER: ${DB_USER}
             DB_PASS: ${DB_PASS}
-            DB_ADDRESS: ${DB_ADDRESS}
+            DB_HOST: ${DB_HOST}
             PANEL_HOST: ${PANEL_HOST}
             PANEL_GLOBAL: ${PANEL_GLOBAL}
             PANEL_USER: ${PANEL_USER}
