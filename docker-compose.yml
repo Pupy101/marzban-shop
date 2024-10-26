@@ -16,3 +16,8 @@ services:
             MYSQL_USER: ${DB_USER}
             MYSQL_PASSWORD: ${DB_PASS}
             MYSQL_ALLOW_EMPTY_PASSWORD: yes
+            MYSQL_DATABASE: ${DB_NAME}
+
+networks:
+    my_network:
+        driver: bridge
